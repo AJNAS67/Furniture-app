@@ -1,6 +1,7 @@
 // import import Background from './bg/background.jpg';
 import Bag from "./images/bag.svg";
 import Sofa from "./images/couch.png";
+import Sofa1 from "./images/sofa.png";
 import Product1 from "./images/product-1.png";
 import Product2 from "./images/product-2.png";
 import Product3 from "./images/product-3.png";
@@ -13,13 +14,17 @@ import ChooseImgageUs from "./images/why-choose-us-img.jpg";
 import Grid1 from "./images/img-grid-1.jpg";
 import Grid2 from "./images/img-grid-2.jpg";
 import Grid3 from "./images/img-grid-3.jpg";
+import Post1 from "./images/post-1.jpg";
+import Post2 from "./images/post-2.jpg";
+import Post3 from "./images/post-3.jpg";
+import EmailBoxicon from "./images/envelope-outline.svg"
 
 // import Second from './photos/second.jpg';
 // import LinkedIn from './social/linkedin.png';
 
 export {
   Bag,
-  Sofa,
+  Sofa,Sofa1,
   Product1,
   Product2,
   Product3,
@@ -32,4 +37,6 @@ export {
   Grid1,
   Grid2,
   Grid3,
+  Post1,Post2,Post3,
+  EmailBoxicon
 };

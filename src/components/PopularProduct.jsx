@@ -1,4 +1,5 @@
 import React from "react";
+import { Product1,Product2,Product3 } from "../assets";
 
 const PopularProduct = () => {
   return (
@@ -10,7 +11,7 @@ const PopularProduct = () => {
               <div className="product-item-sm d-flex">
                 <div className="thumbnail">
                   <img
-                    src="assets/images/product-1.png"
+                    src={Product1}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -32,7 +33,7 @@ const PopularProduct = () => {
               <div className="product-item-sm d-flex">
                 <div className="thumbnail">
                   <img
-                    src="assets/images/product-2.png"
+                    src={Product2}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -54,7 +55,7 @@ const PopularProduct = () => {
               <div className="product-item-sm d-flex">
                 <div className="thumbnail">
                   <img
-                    src="assets/images/product-3.png"
+                    src={Product3}
                     alt="Image"
                     className="img-fluid"
                   />

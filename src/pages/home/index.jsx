@@ -7,6 +7,8 @@ import WhyChooseUs from '../../components/WhyChooseUs';
 import WeHelp from '../../components/WeHelp';
 import PopularProduct from '../../components/PopularProduct';
 import Testimonial from '../../components/Testimonial'
+import BlogSection from '../../components/BlogSection';
+import Footer from '../../components/Footer';
 
 const HomePage = () => {
   return (
@@ -17,7 +19,9 @@ const HomePage = () => {
 		<WhyChooseUs/>
     <WeHelp/>
     <PopularProduct/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
+    <BlogSection/>
+    <Footer/>
       
     </div>
   )
