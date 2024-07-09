@@ -4,7 +4,9 @@ import Header from '../../components/Header'
 import Hero from '../../components/Hero'
 import ProductSection from '../../components/ProductSection';
 import WhyChooseUs from '../../components/WhyChooseUs';
-import WeHelp from '../../components/WeHelp'
+import WeHelp from '../../components/WeHelp';
+import PopularProduct from '../../components/PopularProduct';
+import Testimonial from '../../components/Testimonial'
 
 const HomePage = () => {
   return (
@@ -14,6 +16,8 @@ const HomePage = () => {
 		<ProductSection/>
 		<WhyChooseUs/>
     <WeHelp/>
+    <PopularProduct/>
+    <Testimonial/>
       
     </div>
   )
