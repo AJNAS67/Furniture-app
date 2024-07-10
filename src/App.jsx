@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutUsPage from './pages/about';
 import Footer from './components/Footer';
+import ServicePage from './pages/services';
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -22,6 +23,8 @@ function App() {
           <Route path="home" element={<HomePage />} />
           <Route path="shop" element={<ShopingPage />} />
           <Route path="about" element={<AboutUsPage/>}/>
+          <Route path="services" element={<ServicePage/>}/>
+
           {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>

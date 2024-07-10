@@ -22,7 +22,7 @@ const Header = () => {
 						</li>
 						<li className={`${active=='shop' ?'active':''}`} onClick={()=>setActive('shop')}><Link className="nav-link" to="/shop">Shop</Link></li>
 						<li className={`${active=='about' ?'active':''}`} onClick={()=>setActive('about')}><Link className="nav-link" to="/about">About us</Link></li>
-						<li className={`${active=='services' ?'active':''}`}><Link className="nav-link" to="/services">Services</Link></li>
+						<li className={`${active=='services' ?'active':''}`}><Link className="nav-link" to="/services" onClick={()=>setActive('services')}>Services</Link></li>
 						<li className={`${active=='blog' ?'active':''}`}><Link className="nav-link" to="/blog">Blog</Link></li>
 						<li className={`${active=='contact' ?'active':''}`}><Link className="nav-link" to="/contact">Contact us</Link></li>
 					</ul>
