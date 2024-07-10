@@ -17,7 +17,6 @@ const HomePage = () => {
     <PopularProduct/>
     {/* <Testimonial/> */}
     <BlogSection/>
-    <Footer/>
       
     </div>
   )

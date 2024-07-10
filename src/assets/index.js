@@ -17,8 +17,11 @@ import Grid3 from "./images/img-grid-3.jpg";
 import Post1 from "./images/post-1.jpg";
 import Post2 from "./images/post-2.jpg";
 import Post3 from "./images/post-3.jpg";
-import EmailBoxicon from "./images/envelope-outline.svg"
-
+import EmailBoxicon from "./images/envelope-outline.svg";
+import Person1 from "./images/person_1.jpg";
+import Person2 from "./images/person_2.jpg";
+import Person3 from "./images/person_3.jpg";
+import Person4 from "./images/person_4.jpg"
 // import Second from './photos/second.jpg';
 // import LinkedIn from './social/linkedin.png';
 
@@ -38,5 +41,6 @@ export {
   Grid2,
   Grid3,
   Post1,Post2,Post3,
-  EmailBoxicon
+  EmailBoxicon,
+  Person1,Person2,Person3,Person4
 };

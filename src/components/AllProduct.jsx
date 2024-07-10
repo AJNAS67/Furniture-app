@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { CrossIcon,Product1,Product2,Product3 } from '../assets';
 
 const AllProduct = () => {
   return (
@@ -9,12 +10,12 @@ const AllProduct = () => {
               {/* <!-- Start Column 1 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-3.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product3} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Nordic Chair</h3>
                     <strong className="product-price">$50.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div> 
@@ -23,12 +24,12 @@ const AllProduct = () => {
             {/* <!-- Start Column 2 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-1.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product1} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Nordic Chair</h3>
                     <strong className="product-price">$50.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div> 
@@ -37,12 +38,12 @@ const AllProduct = () => {
             {/* <!-- Start Column 3 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-2.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product2} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Kruzo Aero Chair</h3>
                     <strong className="product-price">$78.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div>
@@ -51,12 +52,12 @@ const AllProduct = () => {
             {/* <!-- Start Column 4 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-3.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product3} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Ergonomic Chair</h3>
                     <strong className="product-price">$43.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div>
@@ -66,12 +67,12 @@ const AllProduct = () => {
             {/* <!-- Start Column 1 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-3.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product3} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Nordic Chair</h3>
                     <strong className="product-price">$50.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div> 
@@ -80,12 +81,12 @@ const AllProduct = () => {
             {/* <!-- Start Column 2 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-1.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product1} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Nordic Chair</h3>
                     <strong className="product-price">$50.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div> 
@@ -94,12 +95,12 @@ const AllProduct = () => {
             {/* <!-- Start Column 3 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-2.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product2} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Kruzo Aero Chair</h3>
                     <strong className="product-price">$78.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div>
@@ -108,12 +109,12 @@ const AllProduct = () => {
             {/* <!-- Start Column 4 --> */}
             <div className="col-12 col-md-4 col-lg-3 mb-5">
                 <a className="product-item" href="#">
-                    <img src="images/product-3.png" className="img-fluid product-thumbnail"/>
+                    <img src={Product3} className="img-fluid product-thumbnail"/>
                     <h3 className="product-title">Ergonomic Chair</h3>
                     <strong className="product-price">$43.00</strong>
 
                     <span className="icon-cross">
-                        <img src="images/cross.svg" className="img-fluid"/>
+                        <img src={CrossIcon} className="img-fluid"/>
                     </span>
                 </a>
             </div>
