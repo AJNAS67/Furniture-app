@@ -29,7 +29,7 @@ const Header = () => {
 
 					<ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
 						<li><a className="nav-link" href="#"><img src="assets/images/user.svg"/></a></li>
-						<li><a className="nav-link" href="cart.html"><img src="assets/images/cart.svg"/></a></li>
+						<li className={`${active=='cart1' ?'active':''}`} onClick={()=>setActive('cart')}><Link className="nav-link" to="/cart"><img src="assets/images/cart.svg"/></Link></li>
 					</ul>
 				</div>
 			</div>

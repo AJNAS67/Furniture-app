@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import ServicePage from './pages/services';
 import BlogPage from './pages/blog';
 import ContactPage from './pages/contact';
+import CartPage from './pages/cart';
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="services" element={<ServicePage/>}/>
           <Route path="blog" element={<BlogPage/>}/>
           <Route path="contact" element={<ContactPage/>}/>
+          <Route path='cart' element={<CartPage/>}/>
 
           {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
