@@ -9,6 +9,7 @@ import AboutUsPage from './pages/about';
 import Footer from './components/Footer';
 import ServicePage from './pages/services';
 import BlogPage from './pages/blog';
+import ContactPage from './pages/contact';
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="about" element={<AboutUsPage/>}/>
           <Route path="services" element={<ServicePage/>}/>
           <Route path="blog" element={<BlogPage/>}/>
+          <Route path="contact" element={<ContactPage/>}/>
 
           {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
