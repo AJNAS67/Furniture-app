@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { act, useState } from 'react'
+import { Link } from "react-router-dom";
 
 const Header = () => {
+	const [active,setActive]=useState('home')
   return (
-    <div>
+    <>
         {/* <!-- Start Header/Navigation --> */}
 		<nav className="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
@@ -15,14 +17,14 @@ const Header = () => {
 
 				<div className="collapse navbar-collapse" id="navbarsFurni">
 					<ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li className="nav-item active">
-							<a className="nav-link" href="index.html">Home</a>
+						<li className={`${active=='home' ?'active':''}`} onClick={()=>setActive('home')}>
+							<Link className="nav-link" to='/'>Home</Link>
 						</li>
-						<li><a className="nav-link" href="shop.html">Shop</a></li>
-						<li><a className="nav-link" href="about.html">About us</a></li>
-						<li><a className="nav-link" href="services.html">Services</a></li>
-						<li><a className="nav-link" href="blog.html">Blog</a></li>
-						<li><a className="nav-link" href="contact.html">Contact us</a></li>
+						<li className={`${active=='shop' ?'active':''}`} onClick={()=>setActive('shop')}><Link className="nav-link" to="/shop">Shop</Link></li>
+						<li className={`${active=='about' ?'active':''}`}><Link className="nav-link" to="/about">About us</Link></li>
+						<li className={`${active=='services' ?'active':''}`}><Link className="nav-link" to="/services">Services</Link></li>
+						<li className={`${active=='blog' ?'active':''}`}><Link className="nav-link" to="/blog">Blog</Link></li>
+						<li className={`${active=='contact' ?'active':''}`}><Link className="nav-link" to="/contact">Contact us</Link></li>
 					</ul>
 
 					<ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
@@ -35,7 +37,7 @@ const Header = () => {
 		</nav>
 		{/* <!-- End Header/Navigation --> */}
       
-    </div>
+    </>
   )
 }
 
